@@ -1,7 +1,6 @@
 App.Routers.Router = Backbone.Router.extend({
   initialize: function(){
     console.log('made a router');
-    $('#post-form').hide();
   },
 
   routes: {

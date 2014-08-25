@@ -23,7 +23,6 @@ App.Views.PostForm = Backbone.View.extend({
     };
     App.Collections.posts.create(data, {success: function(data) {console.log('Added Post')}});
     $('.input').val('');
-    $('#post-form').hide();
     App.Routers.router.navigate('');
   }
 })

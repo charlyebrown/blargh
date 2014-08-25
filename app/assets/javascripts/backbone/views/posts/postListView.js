@@ -7,7 +7,7 @@ App.Views.PostList = Backbone.View.extend({
   },
 
   events: {
-    'click span.add-post-form': 'showAddPost'
+    'click add-post-form': 'showAddPost'
   },
 
   renderAll: function(){
@@ -23,6 +23,6 @@ App.Views.PostList = Backbone.View.extend({
   showAddPost: function(){
     console.log('show form please');
     App.Router.router.navigate('posts/new');
-    $('#post-form').show();
+    $('.new-post').show();
   }
 });
