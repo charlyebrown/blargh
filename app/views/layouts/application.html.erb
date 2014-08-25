@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blargh</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class='intro'><h1>Blarrrrrrgggggghhhh</h1></div>
+<span class='add-post-form'>Add Post</span>
+<div class='new-post'>
+</div>
+
+<div class='blog-list'></div>
+<%= yield %>
+
+</body>
+</html>
